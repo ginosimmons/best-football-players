@@ -26,6 +26,8 @@ a:link {
 body { 
     margin:-10;
 	background: #e9e9e9 url('../images/background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
     width: 100vw;
 }
 header {
@@ -50,7 +52,13 @@ nav ul {
 nav li {
     flex: 1;
 }
-.logo {flex: 70%;}
+.logo {
+    flex: 70%;
+}
+
+.logohome{
+    
+}
 main {
     background-image: url('');
     
@@ -104,12 +112,25 @@ p {
     margin: auto;
 }
 
-.player { flex: 40%;
-    position: relative;}
+.home-grid {
+    display: flex;
+    width: 470px;
+    margin: auto
+}
+
+.icon img {
+    width: 200px;
+    position: relative;
+}
+
+.player { 
+    flex: 40%;
+    position: relative;
+}
 
 .player-pic img {
     position: absolute;
-    width: 100%;
+    width: 100%vh;
     top: 70px;
 }
 
