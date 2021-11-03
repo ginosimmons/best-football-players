@@ -13,11 +13,11 @@ a{
     color: #e9e9e9;
 }
 a:hover {
-    color: #677A52;
+    color: #758a60;
 }
 a:active {
     font-weight:bold;
-    color: #677A52;
+    color: #758a60;
 }
 a:link {
     text-decoration: none;
@@ -34,7 +34,7 @@ header {
     display: flex;
     margin: bottom;
     height: 140px;
-    background-color: #071013;
+    background-color: #3a492b;
 }
 nav { 
     flex: 30%;
@@ -67,7 +67,7 @@ h1 {
     margin-left: 30px;
     margin-bottom: 5px;
     font-size: 40px;
-    color:#e9e9e9;
+    color:#e9e9e9 ;
     font-family: 'Source Sans Pro', sans-serif;
 }
 h2 {
@@ -83,7 +83,7 @@ h3 {
     margin-bottom: 5px;
     margin-top:10px;
     font-size: 40px;
-    color:#071013;
+    color:#3a492b;
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 900;
 }
@@ -112,12 +112,6 @@ p {
     margin: auto;
 }
 
-.home-grid {
-    display: flex;
-    width: 470px;
-    margin: auto
-}
-
 .icon img {
     width: 200px;
     position: relative;
@@ -144,3 +138,103 @@ p {
     margin-left: 30px;
 }
 
+.home-textbox {
+    width: 600px;
+    height: 300px;
+    background-color: #e9e9e9;
+    border-radius: 4px;
+    margin: auto;
+    margin-top: 100px;
+    line-height: 50px;
+}
+
+.home-grid {
+    display:grid;
+    width: 300px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.box1 {
+    width: 300px;
+    height: 50px;
+    outline: 5px dotted #BCB042;
+    border-radius: 4px;
+    margin: auto;
+    line-height: 50px;
+}
+.box1:hover {
+    width: 300px;
+    height: 50px;
+    background: #BCB042;
+    outline: 5px solid #BCB042;
+}
+
+.box2 {
+    width: 300px;
+    height: 50px;
+    outline: 5px dotted #71c9fc;
+    border-radius: 4px;
+    margin: auto;
+    margin-top: 20px;
+    line-height: 50px;
+}
+.box2:hover {
+    width: 300px;
+    height: 50px;
+    background: #71c9fc;
+    outline: 5px solid #71c9fc;
+}
+
+.box3 {
+    width: 300px;
+    height: 50px;
+    outline: 5px dotted #A13831;
+    border-radius: 4px;
+    margin: auto;
+    margin-top: 20px;
+    line-height: 50px;
+}
+.box3:hover {
+    width: 300px;
+    height: 50px;
+    background: #A13831;
+    outline: 5px solid #A13831;
+}
+
+.box4 {
+    width: 300px;
+    height: 50px;
+    outline: 5px dotted #71c9fc;
+    border-radius: 4px;
+    margin: auto;
+    margin-top: 20px;
+    line-height: 50px;
+}
+.box4:hover {
+    width: 300px;
+    height: 50px;
+    background: #71c9fc;
+    outline: 5px solid #71c9fc;
+}
+
+h4 {
+    margin: 20px;
+    color: #071013;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h5 {
+    margin: 20px;
+    color: #758a60;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
