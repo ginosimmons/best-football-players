@@ -56,9 +56,6 @@ nav li {
     flex: 70%;
 }
 
-.logohome{
-    
-}
 main {
     background-image: url('');
     
@@ -238,3 +235,4 @@ h5 {
     display: flex;
     justify-content: center;
     align-items: center;
+}
